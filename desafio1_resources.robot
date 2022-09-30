@@ -26,7 +26,7 @@ Dado que o cliente tenha realizado o cadastro com sucesso
 
     Wait Until Page Contains         Novo Cliente
 
-    Input Text                       id=spree_user_email                    ALISON3@pha.com.br
+    Input Text                       id=spree_user_email                    alisonsilva1@pha.com.br
     Input Text                       id=spree_user_password                 123456789
     Input Text                       id=spree_user_password_confirmation    123456789
 
@@ -41,7 +41,7 @@ Quando tentar logar com o mesmo usuário cadastro novamente
     Click Element                    //a[@href='/login']
 
     Wait Until Element Is Visible    //*[@id="spree_user_email"] 
-    Input Text                       //*[@id="spree_user_email"]                    ALISON3@pha.com.br
+    Input Text                       //*[@id="spree_user_email"]                    alisonsilva1@pha.com.br
 
     Wait Until Element Is Visible    //*[@id="spree_user_password"] 
     Input Text                       //*[@id="spree_user_password"]                   123456789
